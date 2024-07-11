@@ -1,11 +1,4 @@
-/*
-    - Behavior of the scroll to be as fluid as possible when scrolling
-        is triggered on the html element itself.
-    - Define custom properties for the root elements.
-    - Reset the color to color-primary for the section-tagline
-        and card-category declarations and reset color to text-color
-        for the body and anchor declarations.
-*/
+/* Define custom properties for the root elements and reset the color. */
 html {
     scroll-behavior: smooth;
 }
@@ -16,7 +9,7 @@ html {
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: #000000;
+    --text-color: black;
 }
 
 body {
