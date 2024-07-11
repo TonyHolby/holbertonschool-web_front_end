@@ -1,5 +1,4 @@
-<!-- Behavior of the scroll to be as fluid as possible when scrolling is triggered on the html element itself -->
-
+/* Behavior of the scroll to be as fluid as possible when scrolling is triggered on the html element itself */
 <style>
         html {
             scroll-behavior: smooth;
