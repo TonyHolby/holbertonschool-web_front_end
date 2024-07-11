@@ -36,10 +36,6 @@ body {
     line-height: var(--line-height-base);
 }
 
-a {
-    text-decoration: none;
-}
-
 .visually-hidden {
     display: none;
 }
