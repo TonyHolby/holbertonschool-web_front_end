@@ -1,0 +1,35 @@
+/* Behavior of the scroll to be as fluid as possible when scrolling is triggered on the html element itself */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Define custom properties for the root elements. */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: #000000;
+}
+
+/* reset their color to color-primary for the section-tagline and card-category declarations and reset color to text-color for the body and anchor declarations. */
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
