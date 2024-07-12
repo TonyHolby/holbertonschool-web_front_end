@@ -340,13 +340,13 @@
     display: none;
   }
   
-  /**
-   * Add the correct display in IE 10.
-   */
-  
-  [hidden] {
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
     display: none;
-  }
+}
   
 :root {
     --color-primary: #d73953;
@@ -354,7 +354,7 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: #000000;
+    --text-color: var(--color-black);
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
