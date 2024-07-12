@@ -1,15 +1,15 @@
 /* Define custom properties for the root elements and reset the color. */
-html {
-    scroll-behavior: smooth;
-}
-
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: black;
+    --text-color: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
