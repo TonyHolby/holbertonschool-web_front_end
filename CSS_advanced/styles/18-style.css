@@ -348,9 +348,6 @@
     display: none;
   }
   
-/**
- * Add a universal box sizing rule.
- */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -380,6 +377,13 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 4%;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-link-hover: var(--color-primary);
 }
 
 *, *::before, *::after {
@@ -470,6 +474,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--footer-padding);
 }
 
+/**
+ * Add a navbar-menu, a nav, a nav-item and a nav-link class.
+ */
 .navbar-menu {
     float: right;
 }
