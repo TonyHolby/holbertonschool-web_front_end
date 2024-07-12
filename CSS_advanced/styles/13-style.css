@@ -1,4 +1,17 @@
 /* Creates declarations for the decoration of the hyperlinks in anchor elements. */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -24,23 +37,11 @@
     --section-title-color: var(--color-black);
 }
 
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
-
-body {
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-base);
-}
-
 a {
     text-decoration: none;
 }
 
-a[href] {
+a:link {
     color: var(--text-color);
 }
 
