@@ -384,7 +384,7 @@
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
@@ -551,9 +551,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-item-link-hover);
 }
 
-/**
- * Edit the nav-item-link-hover property and the pseudo elements nav-link and nav-item.
- */
 .nav .nav-link::before {
     content: "";
     position: absolute;
@@ -714,7 +711,7 @@ ul.row {
 }
 
 .card-work .card-title a::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
