@@ -541,17 +541,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
-.nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
-}
-
 /**
- * Edit the nav-item-link-hover property and the pseudo elements nav-link and nav-item.
+ * Edit the nav-item-link-hover property and the pseudo elements nav-link::before.
  */
 .nav .nav-link::before {
   content: "";
@@ -560,12 +551,21 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: 20%;
+  height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
-    background-color: var(--color-primary);
-    width: 100%;
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
+.nav .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
 
 ul.row {
