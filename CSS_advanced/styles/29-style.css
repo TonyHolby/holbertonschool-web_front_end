@@ -533,35 +533,32 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-.nav .nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
-}
-
-.nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-}
-
-.nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-}
-
 /**
  * Edit the nav-item-link-hover property and the pseudo elements nav-link and nav-item.
  */
-.nav .nav-link::before {
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 0.02rem;
+    height: 20%;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -658,9 +655,6 @@ ul.row {
     color: var(--color-primary);
 }
 
-/**
- * Add the section-hero selector.
- */
 .section-hero {
     background-size: 90rem auto;
 }
