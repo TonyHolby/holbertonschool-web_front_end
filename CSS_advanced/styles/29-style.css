@@ -387,7 +387,7 @@
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -533,9 +533,6 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-/**
- * Edit the nav-item-link-hover property and the pseudo elements nav-link and nav-item.
- */
 .nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
@@ -554,6 +551,9 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--nav-item-link-hover);
 }
 
+/**
+ * Edit the nav-item-link-hover property and the pseudo elements nav-link and nav-item.
+ */
 .nav .nav-link::before {
   content: "";
   position: absolute;
